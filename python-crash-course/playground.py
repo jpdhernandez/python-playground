@@ -518,7 +518,164 @@ def sq(num):
 o = sq(2)
 
 
-# In[111]:
+# In[113]:
 
 o
+
+
+# In[114]:
+
+def times2(var):
+    return var*2
+
+
+# In[117]:
+
+times2(5)
+
+
+# In[119]:
+
+#map
+seq = [1,2,3,4,5]
+mappedSeq = map(times2,seq)
+
+
+# In[121]:
+
+list(mappedSeq)
+
+
+# In[122]:
+
+#lambda
+t = lambda var:var*2
+
+
+# In[123]:
+
+t(5)
+
+
+# In[124]:
+
+list(map(lambda num:num*3, seq))
+
+
+# In[125]:
+
+#filter odd numbers
+list(filter(lambda num:num%2 !=0, seq))
+
+
+# In[126]:
+
+#methods
+s = "hello my name is Julian"
+s.lower()
+
+
+# In[127]:
+
+s.upper()
+
+
+# In[128]:
+
+s.split()
+
+
+# In[129]:
+
+tweet = "Go Sports! #Sports"
+
+
+# In[130]:
+
+tweet.split("#")[1]
+
+
+# In[132]:
+
+d = {"k1":"v1", "k2":"v2"}
+
+
+# In[133]:
+
+d.keys()
+
+
+# In[134]:
+
+d.items()
+
+
+# In[135]:
+
+d.values()
+
+
+# In[136]:
+
+lst = [1,2,3]
+
+
+# In[137]:
+
+lst.pop()
+
+
+# In[138]:
+
+poppedItem = lst.pop()
+print(poppedItem)
+
+
+# In[146]:
+
+lst = [1,2,3,4]
+
+
+# In[147]:
+
+lst.pop(3)
+
+
+# In[148]:
+
+#hasA
+"x" in [1,2,3,"y"]
+
+
+# In[149]:
+
+"x" in ["x","y", "z"]
+
+
+# In[150]:
+
+x = [(1,2),(3,4)]
+
+
+# In[152]:
+
+x[1][0]
+
+
+# In[153]:
+
+for item in x:
+    print(item)
+
+
+# In[154]:
+
+for (a,b) in x:
+    print(a)
+
+
+# In[155]:
+
+for a,b in x:
+    print(b)
 
