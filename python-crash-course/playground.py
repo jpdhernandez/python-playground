@@ -272,6 +272,177 @@ nest
 print(nest[2][2])
 
 
+# In[61]:
+
+dictionary = {"key":"value","key1":"value1"}
+
+
+# In[63]:
+
+dictionary
+
+
+# In[64]:
+
+d = dictionary
+
+
+# In[67]:
+
+d["key"]
+
+
+# In[68]:
+
+d = {"k1":[1,2,3]}
+
+
+# In[69]:
+
+d["k1"][1]
+
+
+# In[70]:
+
+d = {"k": {"nestedKey":[1,2]}}
+
+
+# In[72]:
+
+d["k"]["nestedKey"][0]
+
+
+# In[73]:
+
+True
+
+
+# In[74]:
+
+False
+
+
+# In[75]:
+
+tupple = (1,2,3)
+
+
+# In[77]:
+
+tupple[2]
+
+
+# In[78]:
+
+t = tupple
+
+
+# In[79]:
+
+t[0] = 1 #immutable 
+
+
+# In[80]:
+
+{1,1,1,2,2,2,3,3,3,}
+
+
+# In[81]:
+
+set({1,1,1,2,2,2,3,3,3})
+
+
+# In[82]:
+
+s = {1,2,3}
+
+
+# In[83]:
+
+s.add(5)
+
+
+# In[84]:
+
+s
+
+
+# In[85]:
+
+s.add(5)
+
+
+# In[86]:
+
+s
+
+
+# In[87]:
+
+1 > 2
+
+
+# In[88]:
+
+1 < 2
+
+
+# In[89]:
+
+1 >= 2
+
+
+# In[90]:
+
+1 == 1
+
+
+# In[91]:
+
+1 == 2
+
+
+# In[92]:
+
+1 != 3
+
+
+# In[93]:
+
+"hi" == "hi"
+
+
+# In[94]:
+
+1 < 2 and 2 < 3
+
+
+# In[95]:
+
+1 < 1 and 2 > 3
+
+
+# In[96]:
+
+1 < 2 or 2 > 3
+
+
+# In[97]:
+
+if 1 < 2:
+    print("yep!")
+
+
+# In[99]:
+
+if 1 == 2:
+    print("first")
+elif 3 == 3:
+    print ("second")
+else:
+    print("last")
+
+
 # In[ ]:
 
 
