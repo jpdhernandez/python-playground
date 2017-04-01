@@ -102,7 +102,7 @@ domainGet('user@domain.com')
 
 def findDog(str):
     str = str.lower()
-    return str.find('dog') != 0
+    return str.find('dog') != 0 #'dog' in st.lower().split()#
 
 
 # In[42]:
@@ -148,7 +148,7 @@ list(filter(lambda sq:sq[0] == 's', seq))
 #   and 80 inclusive, the result is "Small Ticket". If speed is 81 or more, the result is "Big    Ticket". Unless it is your birthday (encoded as a boolean value in the parameters of the function) -- on your birthday, your speed can be 5 higher in all 
 #   cases. **
 
-# In[53]:
+# In[2]:
 
 def caught_speeding(speed, is_birthday):
     if speed <= 60 or (speed <= 65 and is_birthday):
@@ -157,6 +157,19 @@ def caught_speeding(speed, is_birthday):
         return 'Small ticket'
     elif speed >= 81:
         return "Big Ticket"
+    """ Alternate solution
+    if is_birthday:
+        speeding = speed - 5
+    else:
+        speeding = speed
+    
+    if speeding > 80:
+        return 'Big Ticket'
+    elif speeding > 60:
+        return 'Small Ticket'
+    else:
+        return 'No Ticket'
+    """
 
 
 # In[56]:
