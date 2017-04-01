@@ -56,384 +56,384 @@
 4 % 2
 
 
-# In[13]:
+# In[12]:
 
 5 % 2
 
 
-# In[14]:
+# In[13]:
 
 var = 2
 
 
-# In[15]:
+# In[14]:
 
 var
 
 
-# In[16]:
+# In[15]:
 
 x = 2
 
 
-# In[17]:
+# In[16]:
 
 y = 3
 
 
-# In[19]:
+# In[17]:
 
 x + y
 
 
-# In[20]:
+# In[18]:
 
 x = x + x
 
 
-# In[21]:
+# In[19]:
 
 x
 
 
-# In[23]:
+# In[20]:
 
 name_of_var = 12
 
 
-# In[24]:
+# In[21]:
 
 # Strings
 
 
-# In[25]:
+# In[22]:
 
 'single quote'
 
 
-# In[26]:
+# In[23]:
 
 "another string"
 
 
-# In[27]:
+# In[24]:
 
 "I can't go"
 
 
-# In[28]:
+# In[25]:
 
 x = "hello"
 
 
-# In[29]:
+# In[26]:
 
 x
 
 
-# In[30]:
+# In[27]:
 
 print(x)
 
 
-# In[31]:
+# In[28]:
 
 num = 12
 name = "Sam"
 
 
-# In[36]:
+# In[29]:
 
 print('My number is {} and my name is {}, more {}'.format(num, name, num))
 
 
-# In[35]:
+# In[30]:
 
 print('My number is {one} and my name is {two}, more {one}'.format(one=num,two=name))
 
 
-# In[37]:
+# In[31]:
 
 s = "hello"
 
 
-# In[38]:
+# In[32]:
 
 s[0]
 
 
-# In[39]:
+# In[33]:
 
 s[4]
 
 
-# In[40]:
+# In[34]:
 
 z = "abcdefghijklmn"
 
 
-# In[41]:
+# In[35]:
 
 z[0:3]
 
 
-# In[42]:
+# In[36]:
 
 z[3:]
 
 
-# In[43]:
+# In[37]:
 
 z[:6]
 
 
-# In[44]:
+# In[38]:
 
 z[3:6]
 
 
-# In[45]:
+# In[39]:
 
 [1,2,3]
 
 
-# In[46]:
+# In[40]:
 
 ["a","b", "c"]
 
 
-# In[47]:
+# In[41]:
 
 my_list = ["a","b", "c"]
 
 
-# In[48]:
+# In[42]:
 
 my_list.append("d")
 
 
-# In[49]:
+# In[43]:
 
 my_list
 
 
-# In[50]:
+# In[44]:
 
 my_list[0]
 
 
-# In[51]:
+# In[45]:
 
 my_list[1:3]
 
 
-# In[52]:
+# In[46]:
 
 my_list[0] = "NEW"
 
 
-# In[53]:
+# In[47]:
 
 my_list
 
 
-# In[54]:
+# In[48]:
 
 nest =  [1,2,[3,4]]
 
 
-# In[55]:
+# In[49]:
 
 nest
 
 
-# In[56]:
+# In[50]:
 
 nest[2]
 
 
-# In[57]:
+# In[51]:
 
 nest[2][1]
 
 
-# In[58]:
+# In[52]:
 
 nest = [1,2,[3,4,["getThis"]]]
 
 
-# In[59]:
+# In[53]:
 
 nest
 
 
-# In[60]:
+# In[54]:
 
 print(nest[2][2])
 
 
-# In[61]:
+# In[55]:
 
 dictionary = {"key":"value","key1":"value1"}
 
 
-# In[63]:
+# In[56]:
 
 dictionary
 
 
-# In[64]:
+# In[57]:
 
 d = dictionary
 
 
-# In[67]:
+# In[58]:
 
 d["key"]
 
 
-# In[68]:
+# In[59]:
 
 d = {"k1":[1,2,3]}
 
 
-# In[69]:
+# In[60]:
 
 d["k1"][1]
 
 
-# In[70]:
+# In[61]:
 
 d = {"k": {"nestedKey":[1,2]}}
 
 
-# In[72]:
+# In[62]:
 
 d["k"]["nestedKey"][0]
 
 
-# In[73]:
+# In[63]:
 
 True
 
 
-# In[74]:
+# In[64]:
 
 False
 
 
-# In[75]:
+# In[65]:
 
 tupple = (1,2,3)
 
 
-# In[77]:
+# In[66]:
 
 tupple[2]
 
 
-# In[78]:
+# In[67]:
 
 t = tupple
 
 
-# In[79]:
+# In[68]:
 
 t[0] = 1 #immutable 
 
 
-# In[80]:
+# In[69]:
 
 {1,1,1,2,2,2,3,3,3,}
 
 
-# In[81]:
+# In[70]:
 
 set({1,1,1,2,2,2,3,3,3})
 
 
-# In[82]:
+# In[71]:
 
 s = {1,2,3}
 
 
-# In[83]:
+# In[72]:
 
 s.add(5)
 
 
-# In[84]:
+# In[73]:
 
 s
 
 
-# In[85]:
+# In[74]:
 
 s.add(5)
 
 
-# In[86]:
+# In[75]:
 
 s
 
 
-# In[87]:
+# In[76]:
 
 1 > 2
 
 
-# In[88]:
+# In[77]:
 
 1 < 2
 
 
-# In[89]:
+# In[78]:
 
 1 >= 2
 
 
-# In[90]:
+# In[79]:
 
 1 == 1
 
 
-# In[91]:
+# In[80]:
 
 1 == 2
 
 
-# In[92]:
+# In[81]:
 
 1 != 3
 
 
-# In[93]:
+# In[82]:
 
 "hi" == "hi"
 
 
-# In[94]:
+# In[83]:
 
 1 < 2 and 2 < 3
 
 
-# In[95]:
+# In[84]:
 
 1 < 1 and 2 > 3
 
 
-# In[96]:
+# In[85]:
 
 1 < 2 or 2 > 3
 
 
-# In[97]:
+# In[86]:
 
 if 1 < 2:
     print("yep!")
 
 
-# In[99]:
+# In[87]:
 
 if 1 == 2:
     print("first")
@@ -443,7 +443,82 @@ else:
     print("last")
 
 
-# In[ ]:
+# In[88]:
+
+seq = [1,2,3,4,5]
 
 
+# In[89]:
+
+for  item in seq:
+    print(item)
+
+
+# In[91]:
+
+i = 1
+while i <= 5:
+    print("i is {}".format(i))
+    i = i + 1
+
+
+# In[93]:
+
+list(range(10))
+
+
+# In[94]:
+
+x = [1,2,3,4]
+
+
+# In[95]:
+
+out = []
+for num in x:
+    out.append(num**2)
+print(out)
+
+
+# In[96]:
+
+#list comprehension
+[num**2 for num in x]
+
+
+# In[105]:
+
+def fn(name='default'):
+    print("Hello " +  name)
+
+
+# In[104]:
+
+fn("Julian")
+
+
+# In[108]:
+
+fn()
+
+
+# In[112]:
+
+def sq(num):
+    """
+    This is a docstring
+    A multi line comment
+    this fn squares a num
+    """
+    return num**2
+
+
+# In[110]:
+
+o = sq(2)
+
+
+# In[111]:
+
+o
 
