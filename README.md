@@ -1,1 +1,2 @@
 # python-playground
+A repo that contains code that helps me play with python frameworks for data science. Notes are taken from Intro to Data Science (Udacity) and Python for data science and ML bootcamp (Udemy).
